@@ -26,6 +26,9 @@ h1 {
 h2 {
     font-size: 2rem;
 }
+h3{
+    font-size: 1.5rem;
+}
 
 p {
     font-size: 1.2rem;
@@ -59,6 +62,7 @@ ul {
     max-width: 1180px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
+    overflow: hidden;
 }
 
 .hover-link {
@@ -128,7 +132,9 @@ ul {
     justify-content: end;
     gap: 40px;
 }
-
+.nav-toggle{
+    display: none;
+}
 /* header classes */
 
 .header {
@@ -137,7 +143,7 @@ ul {
 
 .header-section {
     justify-content: center;
-    gap: 200px;
+    gap: 50px;
     padding: 50px;
 }
 
@@ -152,6 +158,9 @@ ul {
 .left p {
     padding: 10px;
 }
+.right img{
+    width: 100%;
+}
 
 /* logos section*/
 
@@ -162,8 +171,9 @@ ul {
 }
 
 .logos {
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .logo {
@@ -189,9 +199,9 @@ ul {
 
 .features-card {
     flex-direction: column;
-    max-width: 25%;
+    max-width: 30%;
     text-align: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .features-area {
@@ -205,7 +215,10 @@ ul {
 
 .big-feature-container {
     padding: 30px var(--padding-inline-section) 0;
-    gap: 180px;
+    gap: 35px;
+}
+.feature-img img{
+    width: 100%;
 }
 
 /* examples classes */
@@ -218,6 +231,7 @@ ul {
 .examples-area {
     justify-content: space-between;
     padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 .examples-card {
@@ -305,3 +319,4 @@ ul {
 .sub-footer-end {
     background-color: #b9cde4;
 }
+
