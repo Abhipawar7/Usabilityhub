@@ -26,7 +26,8 @@ h1 {
 h2 {
     font-size: 2rem;
 }
-h3{
+
+h3 {
     font-size: 1.5rem;
 }
 
@@ -120,6 +121,10 @@ ul {
 }
 
 /* nav-bar classes */
+.company-logo-img {
+    width: 250px;
+}
+
 .main-nav {
     margin-top: 20px;
     justify-content: space-between;
@@ -133,9 +138,11 @@ ul {
     justify-content: end;
     gap: 40px;
 }
-.nav-toggle{
+
+.nav-toggle {
     display: none;
 }
+
 /* header classes */
 
 .header {
@@ -159,7 +166,8 @@ ul {
 .left p {
     padding: 10px;
 }
-.right img{
+
+.right img {
     width: 100%;
 }
 
@@ -226,7 +234,7 @@ ul {
     text-align: center;
 }
 
-.feature-img img{
+.feature-img img {
     width: 100%;
 }
 
@@ -234,6 +242,7 @@ ul {
 
 .examples-header {
     flex-direction: column;
+    padding: 60px var(--padding-inline-section);
     gap: 20px;
 }
 
@@ -320,6 +329,8 @@ ul {
 
 .sub-footer-end-container {
     flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
     gap: 30px;
     justify-content: center;
     padding-block: 30px;
@@ -328,4 +339,3 @@ ul {
 .sub-footer-end {
     background-color: #b9cde4;
 }
-
